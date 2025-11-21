@@ -4,8 +4,8 @@
   - 调研和梳理jiaxiao和baojie的各自子课题路线
 ## 问题方案
 ## 下周计划
-  - 基于tahoe-x1模型和数据开始cell-text-toknizer
+  - 基于tahoe-x1模型和数据开始cell-text-tokenizer
     - 采用composer训练框架
     - 直接复用tahoe-x1基础编码模型
-    - vqvae构建toknizer
+    - vqvae构建tokenizer
   - 给学校写兴农青年学者（AI+）建议书
