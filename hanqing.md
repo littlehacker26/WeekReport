@@ -5,4 +5,7 @@
 ## 问题方案
 ## 下周计划
   - 基于tahoe-x1模型和数据开始cell-text-toknizer
+    - 采用composer训练框架
+    - 直接复用tahoe-x1基础编码模型
+    - vqvae构建toknizer
   - 给学校写兴农青年学者（AI+）建议书
