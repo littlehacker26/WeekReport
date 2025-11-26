@@ -12,7 +12,7 @@
 - [x] 复现 sci-adv 文章中的模型。
 - [x] 熟悉 AMP 设计相关算法。
 - [x] 整理近 2 年的 AMP 相关论文（尽量多整理一些）。
-- [x] 学习 Markdown 语法 。   学习 Markdown 语法。
+- [x] 学习 Markdown 语法 。   学习 Markdown 语法。- [x] Learn Markdown syntax.  Learn Markdown syntax.
 
 2025-11-26
 ---
