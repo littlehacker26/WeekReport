@@ -9,10 +9,10 @@
 - 学习单细胞大模型训练流程，整理相关笔记
 
 **下周计划**
-- [x] 复现 sci-adv 文章中的模型
-- [x] 熟悉 AMP 设计相关算法 Familiar with AMP design-related algorithms (four models, one reinforcement learning; only familiar with AMP_GPT_generator.py and AMP_prompt_generator.py) only familiar with AMP_GPT_generator.py and AMP_prompt_generator.py)Familiar with AMP design-related algorithms (four models, one reinforcement learning; only familiar with AMP_GPT_generator.py and AMP_prompt_generator.py) only familiar with AMP_GPT_generator.py and AMP_prompt_generator.py)
-- [x] 整理近 2 年的 AMP 相关论文（尽量多整理一些）
-- [x] 学习 Markdown 语法 
+- [x] 复现 sci-adv 文章中的模型。
+- [x] 熟悉 AMP 设计相关算法。
+- [x] 整理近 2 年的 AMP 相关论文（尽量多整理一些）。
+- [x] 学习 Markdown 语法 。
 
 2025-11-26
 ---
