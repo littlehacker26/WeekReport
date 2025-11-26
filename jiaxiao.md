@@ -12,13 +12,13 @@
 - [x] 复现 sci-adv 文章中的模型。
 - [x] 熟悉 AMP 设计相关算法。
 - [x] 整理近 2 年的 AMP 相关论文（尽量多整理一些）。
-- [x] 学习 Markdown 语法 。   Learn Markdown syntax.   Learn Markdown syntax.   Learn Markdown syntax.
+- [x] 学习 Markdown 语法 。   学习 Markdown 语法。
 
 2025-11-26
 ---
 **上周工作**
 - [x] 复现 sci-adv 文章中的模型（可以完全跑通，但在加载权重文件时出了点儿小问题，导致MIC预测的不同短肽结果为常数，没有差异。）
-- [x] 熟悉 AMP 设计相关算法（四个模型+1个强化学习，只熟悉了AMP_GPT_generator.py和AMP_prompt_generator.py）- 
+- [x] 熟悉 AMP 设计相关算法（四个模型+1个强化学习，只熟悉了AMP_GPT_generator.py和AMP_prompt_generator.py）。
 - [x] 整理近 2 年的 AMP 相关论文（尽量多整理一些）目前整理15篇（按照作者；年份；发表期刊；主要任务模型等进行整理） 
 - [x] 学习 Markdown 语法 （熟悉基本语法）
 
@@ -29,4 +29,5 @@
 - [ ] 继续熟悉 AMP 设计相关算法。
 - [ ] 整理近 2 年的 AMP 相关论文。
 - [ ] Summary AMP生成式的相关文章数据来源、格式和数量（彻底搞清楚模型的输入，做几页PPT整理）。
+- [ ] AMP 生成式算法。
 
