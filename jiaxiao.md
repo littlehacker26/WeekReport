@@ -11,14 +11,14 @@
 - [x] 复现 sci-adv 文章中的模型。
 - [x] 熟悉 AMP 设计相关算法。
 - [x] 整理近 2 年的 AMP 相关论文（尽量多整理一些）。
-- [x] 学习 Markdown 语法 。           Learn Markdown syntax.
+- [x] 学习 Markdown 语法 。           Learn Markdown syntax.Learn Markdown syntax. Learn Markdown syntax.Learn Markdown syntax. Learn Markdown syntax.Learn Markdown syntax. Learn Markdown syntax.
 
 
 2025-11-26
 ---
 **上周工作**
 - [x] 复现 sci-adv 文章中的模型（可以完全跑通，但在加载权重文件时出了点儿小问题，导致MIC预测的不同短肽结果为常数，没有差异。）
-- [x] 熟悉 AMP 设计相关算法（四个模型+1个强化学习，只熟悉了AMP_GPT_generator.py和AMP_prompt_generator.py）。
+- [x] 熟悉 AMP 设计相关算法（四个模型+1个强化学习，只熟悉了AMP_GPT_generator.py和AMP_prompt_generator.py）。- [x] Familiar with AMP design-related algorithms (four models, one reinforcement learning; only familiar with AMP_GPT_generator.py and AMP_prompt_generator.py).- [x] Familiar with AMP design-related algorithms (four models, one reinforcement learning; only familiar with AMP_GPT_generator.py and AMP_prompt_generator.py).- [x] Familiar with AMP design-related algorithms (four models, one reinforcement learning; only familiar with AMP_GPT_generator.py and AMP_prompt_generator.py).- [x] 熟悉 AMP 设计相关算法（四个模型，其中一个为强化学习；仅熟悉 AMP_GPT_generator.py 和 AMP_prompt_generator.py）。
 - [x] 整理近 2 年的 AMP 相关论文（尽量多整理一些）目前整理15篇（按照作者；年份；发表期刊；主要任务模型等进行整理） 
 - [x] 学习 Markdown 语法 （熟悉基本语法）
 
@@ -32,11 +32,9 @@
 
 **近2年的AMP相关论文——数据来源、相关算法**
 
-
-
 # AMP 大模型 / 生成式方法文献整理（2023–2025）
 
-> 说明：本表汇总了 2023–2025 年与 AMP 设计相关的代表性大模型 / 生成式工作，包含 diffusion、GAN、VAE、LLM 等不同路线。
+> 说明：本表汇总了 2023–2025 年与 AMP 设计相关的代表性大模型 / 生成式工作，包含 diffusion、GAN、VAE、LLM 等不同路线。列内容相对精简，方便在 GitHub 上浏览。
 
 ## 文献汇总表
 
@@ -57,7 +55,6 @@
 | 2023 | Szymczak（Paulina Szymczak） | Discovering highly potent antimicrobial peptides with generative adversarial networks | iScience 26(7):106774 | GAN 生成 + 筛选 | 使用 GAN 生成 AMP 候选并筛选高效肽 | AMP 数据集 + 体外实验 | MIC 等抗菌指标 | https://www.cell.com/iscience/fulltext/S2589-0042(23)00811-1 | GAN 生成 | 早期 GAN 生成 AMP 并有实验验证的工作 | 可与 AMPGAN v2 对比，理解 GAN 在 AMP 中的用法 |
 | 2025 | Tan（Luoda Tan） | SQ-DiffuPep: A multimodal information-guided quantitative generative model for peptide design | Research Square 预印本 | 多模态条件 diffusion | 结合序列 + 结构等多模态信息的定量 diffusion 生成肽 | 综合多种肽/蛋白数据集 | 生成肽性质预测、实验少量验证 | https://www.researchsquare.com/article/rs-xxxxx/v1 | 结构条件 Diffusion-AMP | 序列 + 结构联合潜在变量的 peptide diffusion 模型 | 想做“带结构信息的 Diffusion-AMP”，可以照着学 |
 | 2025 | Liu, J. | Multi-Property Optimizing GAN for de novo AMP Design | Advanced Science | de novo AMP 设计 & 多属性优化 | MPOGAN：RNN 生成器 + ESM-2 判别器 + 多属性预测器 | AMPs 来自多数据库 + UniProt 非 AMP；部分候选体外实验验证 | 分类性能 + 生成肽活性/毒性评分、多属性通过率、多样性、实验 MIC/毒性 | https://doi.org/10.1002/advs.202503443 | GAN / 多属性 AMP 生成 | 用多属性预测器筛选 + 动态数据集（RTKU）实现活性↑毒性↓多样性↑ | 可作为“生成–评估–筛选–再训练”闭环优化的入门案例 |
-
 
 
 
