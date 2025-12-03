@@ -1,4 +1,3 @@
-<img width="210" height="105" alt="image" src="https://github.com/user-attachments/assets/85ac898a-2d61-4aa4-9ced-4c7240f62890" /># 2025-11-19
 ## 上周工作
 * 复现c2s模型
 - 复现c2s-scale模型
