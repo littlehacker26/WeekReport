@@ -23,6 +23,6 @@
 - [整理c2s、c2s scale、langcell、 CellWhisperer这四个模型的数据](https://github.com/Jaybao420/note/blob/7f46be51912ab0516096322e85f0b168f2ca011f/Data.md)
 - 复现c2s模型中细胞数据与自然语言拼接，prompt_formatter.py
 ## 问题方案
-- 对于scGPT、BiomedGPT的预训练类型分类还存在疑问。
+- 对于scGPT、BiomedGPT的自监督类型分类还存在疑问。
 - AnnData到Arrow dataset时，文件过大会Kernel崩溃。
 ## 下周计划
