@@ -25,3 +25,16 @@
 **下周计划**
 - 完成cell-text-toknizer的解码算法设计，开发和训练适配
 - 让保杰配合tokenizer的训练数据，让其开始整理和llm训练的自然语言数据集
+
+## 2025-12-03
+**上周工作**
+- 完成了cell-text-toknizer编码解码全部代码实现工作
+- 思考两个小同学的研究点
+  - jiaoxiao考虑decode-time的抗菌肽生成
+  - baojie 考虑自回归式的cell-语言模型
+  
+**问题方案**
+- cell-text-toknizer的训练效果不及预期，测试指标较差像是不太work
+  
+**下周计划**
+- 分步调试cell-text-toknizer，完善到较好的状态
