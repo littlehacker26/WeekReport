@@ -26,3 +26,7 @@
 - 对于scGPT、BiomedGPT的自监督类型分类还存在疑问。
 - AnnData到Arrow dataset时，文件过大会Kernel崩溃。
 ## 下周计划
+- 继续读文献，整理预训练方法。
+- 完善数据整理，呈现数据样例。
+- 复现tGPT和Tahoe-x1.
+- 搭好模型框架
