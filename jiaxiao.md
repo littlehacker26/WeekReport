@@ -11,14 +11,13 @@
 - [x] 复现 sci-adv 文章中的模型。
 - [x] 熟悉 AMP 设计相关算法。
 - [x] 整理近 2 年的 AMP 相关论文（尽量多整理一些）。
-- [x] 学习 Markdown 语法 。 
+- [x] 学习 Markdown 语法 。   
 
 2025-11-26
 ---
 **上周工作**
 - [x] 复现 sci-adv 文章中的模型（可以完全跑通，但在加载权重文件时出了点儿小问题，导致MIC预测的不同短肽结果为常数，没有差异。）
 - [x] 熟悉 AMP 设计相关算法（四个模型+1个强化学习，只熟悉了AMP_GPT_generator.py和AMP_prompt_generator.py）。
-- [x] 整理近 2 年的 AMP 相关论文（尽量多整理一些）目前整理15篇（按照作者；年份；发表期刊；主要任务模型等进行整理） 
 - [x] 学习 Markdown 语法 （熟悉基本语法）
 
 **问题方案**
@@ -33,14 +32,18 @@
 2025-12-03
 ---
 
-**上周计划**
+**上周工作**
 - [x] 继续熟悉sci adv 文章 AMP 设计相关算法。(基本了解，但要对应到代码。只掌握了预训练部分代码)
 - [x] 整理近 2 年的 AMP 相关论文，熟悉其他AMP生成的算法并进行小结。（熟悉数据来源及格式转化，了解几种生成式AMP的原理）
 - [x] Summary AMP生成式的相关文章数据来源、格式和数量（彻底搞清楚模型的输入，做几页PPT整理）。（总结了几页PPT）
 
 **近2年的AMP相关论文——数据来源、相关算法**
 
-| 年份 (Year) | 第一作者 (First Author)                     | 论文标题 (Title Short)                                                                                                             | 期刊/会议 (Journal or Venue)                       | 任务类型 (Task Type)               | 主要算法/模型 (Main Model or Algorithm)                 | 数据来源 (Data Sources)                                                                              | 评价指标 (Evaluation Metrics)                                         | 链接 (Link)                                                                                    | 分类 (Category)                                                                                                                                                    | 大类 (Macro Category)             | 生成子类 (Generative Subtype)        | 核心创新 (Key Innovation)                                                                           | 给初学者的提示 (Notes for Beginners)                                                                  |
+| 年份 (Year) | 第一作者 (First Author)                     | 论文标题 (Title Short)                                                                                                             | 期刊/会议 (Journal or Venue)                       | 任务类型 (Task Type)               | 主要算法/模型 (Main Model or Algorithm)                 | 数据来源 (Data Sources)                                                                              | 评价指标 (Evaluation Metrics)                                         | 链接 (Link)                                                                                    | 分类 (Category)                                                                                                                                                    | 大类 (Macro Category)             | 生成子类 (Generative Subtype)        | 核心创新 (Key Innovation)                                                                           | 给初学者的提示 (Notes for Beginners)                                                                  || Year | First Author | Title Short | Journal or Venue | Task Type | Main Model or Algorithm | Data Sources | Evaluation Metrics | Link | Category | Macro Category | Generative Subtype | Key Innovation | Notes for Beginners |
+|------|-------------|------------|-----------------|----------|-----------------------|-------------|------------------|------|----------|----------------|------------------|----------------|---------------------|
+| 2020 | Zhang, Y.   | "A Novel Approach to Text Generation" | Journal of Natural Language Processing | Text Generation | Transformer | English Wikipedia | BLEU, ROUGE | https://example.com | Text Generation | NLP | Text Generation | Introducing a new method for text generation | This paper presents a novel approach to text generation using a Transformer model. It is a good starting point for beginners in the field. || 2020 | 张 Y. | 《一种新颖的文本生成方法》 | 《自然语言处理杂志》 | 文本生成 | 变压器 | 英语维基百科 | BLEU、ROUGE | https://example.com | 文本生成 | 自然语言处理 | 文本生成 | 介绍一种新的文本生成方法 | 本文提出了一种使用变压器模型进行文本生成的新方法。对于该领域的初学者来说，这是一个很好的起点。|
+| 2019 | Wang, L.    | "Enhancing Image Generation with Attention Mechanism" | Proceedings of the International Conference on Computer Vision | Image Generation | GAN | ImageNet | Inception Score, FID | https://example.com | Image Generation | CV | Image Generation | Utilizing attention mechanism to improve image generation | This paper demonstrates how to enhance image generation by incorporating an attention mechanism. It is recommended for beginners interested in image generation. || 2019 | 王，L. | 《利用注意力机制增强图像生成》 | 《国际计算机视觉大会论文集》 | 图像生成 | GAN | ImageNet | Inception Score，FID | https://example.com | 图像生成 | CV | 图像生成 | 利用注意力机制改进图像生成 | 本文展示了如何通过引入注意力机制来增强图像生成。对于对图像生成感兴趣的初学者来说，这是一篇推荐读物。|
+| 2018 | Li, X.      | "A Comprehensive Study on Speech Syn| 2018 | 李，X. | “关于语音合成的全面研究”
 | --------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- | ------------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | 2024      | Wang (Xue-Fei Wang) PubMed              | ProT-Diff: modularized protein-LM + diffusion for de novo AMP design                                                           | Advanced Science (Adv Sci) PubMed+1            | de novo AMP 设计（多条件生成）          | PLM encoder + Diffusion decoder + 条件控制模块          | 1）已知 AMP 数据集：从多个公开 AMP 数据集整合；2）PLM 预训练权重：使用预训练 protein language model 作为 encoder；3）结构/性质/标签等辅助信息 | 1）生成序列与真实 AMP 在理化性质分布上的接近程度；2）序列多样性；3）体外抗菌活性和毒性实验结果               | [https://doi.org/10.1002/advs.202304567](https://doi.org/10.1002/advs.202304567)             | Diffusion 生成（基于蛋白 PLM latent 的扩散生成）                                                                                                                              | 生成式 (Generative Design)         | Diffusion（PLM latent 条件扩散）       | 把蛋白语言模型的潜在表示当作扩散空间，模块化组合 PLM 编码器、扩散解码器和条件控制，实现统一框架下的功能肽/蛋白生成。                                   | 适合学习“PLM latent + 条件扩散”的基本套路，建议先看整体模块拆分和潜在空间条件控制，再思考如何迁移到 AMP 任务。                              |
 | 2024      | Li (Tingting Li) Nature                 | A foundation model (deepAMP) for broad-spectrum AMP optimization                                                               | Nature Biomedical Engineering (Nat Biomed Eng) | 广谱 AMP 优化（基于 foundation model） | deepAMP：基于掩码 LM 的 peptide foundation model        | 大规模已知 AMP 与非 AMP 序列；多物种、多条件的 MIC/毒性实验数据                                                          | MIC 改善幅度、溶血与细胞毒性、广谱性（多菌种）对比；模型预测准确率与命中率                           | [https://doi.org/10.1038/s41551-024-01234-5](https://doi.org/10.1038/s41551-024-01234-5)     | 模型的 peptide foundation model，配合序列退化、成对学习和虚拟筛选，实现针对模板肽的广谱 AMP 优化。                                                                                                 | 生成式 (Generative Design)         | LLM / Foundation model（掩码 LM 优化） | 提出面向 AMP 的 peptide foundation model deepAMP，通过掩码预训练 + 序列退化/成对学习微调，再结合虚拟筛选，实现广谱 AMP 的系统优化。       | 适合理解“foundation model + 结构化微调”的思路，可重点看预训练任务设计、退化/成对学习损失，以及如何和虚拟筛选结合。                           |
@@ -66,5 +69,24 @@
 
 
 **下周计划**
-- [ ] 
+- [ ] 基于专家 / 反专家语言模型的可控生成原理学习
+- [ ] AMP可控生成模型生成
+- [ ] 并对生成的AMP进行验证并评估模型
+
+
+2025-12-10
+---
+**上周工作**
+- [x] 基于专家 / 反专家语言模型的可控生成原理学习（Base logits + α · Expert logits − β · Anti logits）
+- [x] AMP可控生成模型生成（模型建立完成并按照两个参数初步各生成了一批AMP 共计1000条）
+- [x] 并对生成的AMP进行验证并评估模型（对于这两批AMP（各500条）进行了amPEPpy得分预测，筛选出了高的得分率前八十条又进行了DBAASP性质预测）
+
+**问题方案**
+- 目前对于AMP可控生成模型算法代码不熟悉，下一步要学习整个代码框架，一一对应。
+- 对于AMP性能检测和模型评估了解不够完善，最近再好好查查文献，列出一套完整的评估方法，并将DExperts生成的AMP与其他模型进行比较。
+
+**下周计划**
+- [ ] 列出一套完整的AMP生成式模型评估体系，并进行评估。（尽量多做多尝试）
+- [ ] 将模型算法和代码结合的学习，下周汇报要掌握代码。
+
 
