@@ -1,4 +1,4 @@
-## 上周工作
+<img width="567" height="105" alt="image" src="https://github.com/user-attachments/assets/1e7741e3-2a00-429c-a583-12a6b75e1cc4" />## 上周工作
 * 复现c2s模型
 - 复现c2s-scale模型
 ## 问题方案 
@@ -30,3 +30,14 @@
 - 完善数据整理，呈现数据样例。
 - 复现tGPT和Tahoe-x1.
 - 搭好模型框架
+# 2025-12-10
+## 上周工作
+- 在tGPT模型的基础上进行修改，增加了Gene-expression head，实现预训练推测基因表达量。
+- 在新模型上进行初步预训练（数据集为36万个免疫细胞图谱），得到训练集及验证集的loss与 perplexity 曲线。
+## 问题方案
+- 对于新模型的评估方法还不明确。
+## 下周计划
+- 复现Geneformer，掌握评估及验证方法。
+- 设计新模型的评估及验证方案。
+- 优化新模型
+
