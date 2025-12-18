@@ -51,3 +51,12 @@
 ## 下周计划
 - tGPTexpr朝着虚拟细胞方向发展。
 - 精读scGPT这篇文献，讲明白原理（预训练任务原理、虚拟扰动原理）
+
+
+## 任务
+- tahoe的toknizer方式转换。
+- 把cell2setence/whispercell 的数据，用tahoe的toknizer方式转换。（understand和generation） f"{cell_token} natural language prompt!"
+  - e.g., query: please tell me the cell's type the cell is {cell1}"  response: ok, the cell is txxxx.
+      cell_inf：cell1: {gene_id, express:value}
+      cell_metainf: {xxxxx}
+- 按照任务形式分类，形式按照你想要的整理。
