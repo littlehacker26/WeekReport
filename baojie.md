@@ -1,4 +1,4 @@
-<img width="567" height="105" alt="image" src="https://github.com/user-attachments/assets/1e7741e3-2a00-429c-a583-12a6b75e1cc4" />## 上周工作
+## 上周工作
 * 复现c2s模型
 - 复现c2s-scale模型
 ## 问题方案 
