@@ -51,8 +51,9 @@
 ## 下周计划
 - tGPTexpr朝着虚拟细胞方向发展。
 - 精读scGPT这篇文献，讲明白原理（预训练任务原理、虚拟扰动原理）
-
-
+# 2025-12-31
+- 将cellwhisper的部分预训练数据集（cellxgene）以tahoe的toknizer方式进行转换；
+- 实现了细胞语言和文本语言对齐。
 ## 任务
 - tahoe的toknizer方式转换。
 - 把cell2setence/whispercell 的数据，用tahoe的toknizer方式转换。（understand和generation） f"{cell_token} natural language prompt!"
