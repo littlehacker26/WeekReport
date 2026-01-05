@@ -52,8 +52,16 @@
 - tGPTexpr朝着虚拟细胞方向发展。
 - 精读scGPT这篇文献，讲明白原理（预训练任务原理、虚拟扰动原理）
 # 2025-12-31
-- 将cellwhisper的部分预训练数据集（cellxgene）以tahoe的toknizer方式进行转换；
-- 实现了细胞语言和文本语言对齐。
+## 上周工作
+- 将cellwhisper的部分预训练数据集（cellxgene，37899条）以tahoe的toknizer方式进行转换；
+- 创建细胞分类任务的prompt template，实现细胞语言和自然语言对齐。
+## 问题方案
+- 根据数据集中细胞的meta信息新建其他任务的prompt template；
+- 目前脚本对于细胞的meta信息多时处理数据比较慢，优化脚本批量快速处理数据。
+## 下周计划
+- 以cellwhisperer和c2s-scale数据集创建prompt template，并按任务类型整理到excel表中；
+- 将cellwhisperer和c2s-scale的全部训练数据集实现以tahoe的toknizer方式转换，并实现细胞语言和自然语言对齐；
+- 优化脚本，实现快速批量处理数据。
 ## 任务
 - tahoe的toknizer方式转换。
 - 把cell2setence/whispercell 的数据，用tahoe的toknizer方式转换。（understand和generation） f"{cell_token} natural language prompt!"
