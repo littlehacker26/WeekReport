@@ -20,7 +20,7 @@
 # 2025-12-3
 ## 上周工作
 - 整理预训练方法
-- [整理c2s、c2s scale、langcell、 CellWhisperer这四个模型的数据](https://github.com/Jaybao420/note/blob/7f46be51912ab0516096322e85f0b168f2ca011f/Data.md)
+- 整理c2s、c2s scale、langcell、 CellWhisperer这四个模型的数据
 - 复现c2s模型中细胞数据与自然语言拼接，prompt_formatter.py
 ## 问题方案
 - 对于scGPT、BiomedGPT的自监督类型分类还存在疑问。
