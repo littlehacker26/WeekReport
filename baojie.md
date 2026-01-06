@@ -58,10 +58,12 @@
 ## 问题方案
 - 根据数据集中细胞的meta信息新建其他任务的prompt template；
 - 目前脚本对于细胞的meta信息多时处理数据比较慢，优化脚本批量快速处理数据。
+- 对于cellwhisperer模型的机理还存在疑问：如何在mistral做chat model training这一步，如何构建prompt以及如何实现多轮对话。
 ## 下周计划
 - 以cellwhisperer和c2s-scale数据集创建prompt template，并按任务类型整理到excel表中；
 - 将cellwhisperer和c2s-scale的全部训练数据集实现以tahoe的toknizer方式转换，并实现细胞语言和自然语言对齐；
 - 优化脚本，实现快速批量处理数据。
+- 复现cellwhisperer chat model training这一步，学会利用该数据集构建prompt。
 ## 任务
 - tahoe的toknizer方式转换。
 - 把cell2setence/whispercell 的数据，用tahoe的toknizer方式转换。（understand和generation） f"{cell_token} natural language prompt!"
