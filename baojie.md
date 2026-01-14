@@ -64,7 +64,7 @@
 - 将cellwhisperer和c2s-scale的全部训练数据集实现以tahoe的toknizer方式转换，并实现细胞语言和自然语言对齐；
 - 优化脚本，实现快速批量处理数据。
 - 复现cellwhisperer chat model training这一步，学会利用该数据集构建prompt。
-# 2025-1-7
+# 2026-1-7
 ## 上周工作
 - 根据cellwhisperer cellxgene数据集设计两类任务：（1）细胞注释任务；（2）AI设计对话。
 - 根据c2s-scale 跨组织免疫细胞数据集设计细胞类型预测任务。
@@ -76,6 +76,17 @@
 ## 下周计划
 - 按照方案重新整理数据集。
 - 设计多细胞组织预测任务、细胞生成任务、扰动响应预测任务。
+# 2026-1-14
+## 上周工作
+- 根据c2s-scale数据集设计细胞类型预测、组织类型预测、细胞生成、扰动相应预测、细胞描述五类任务
+- 学习scGPT预训练方法
+## 问题方案
+- 对于细胞生成任务，添加细分任务：根据自然语言文本描述生成细胞
+- 预训练新思路：根据KEGG通路设计MLM任务，mask的基因为KEGG通路中的基因
+- 学习预训练方法时，聚焦于生物学意义
+## 下周工作
+- 整理cellwhisperer数据集，做SFT任务分类
+- 调研KEGG数据库
 ## 任务
 - tahoe的toknizer方式转换。
 - 把cell2setence/whispercell 的数据，用tahoe的toknizer方式转换。（understand和generation） f"{cell_token} natural language prompt!"
