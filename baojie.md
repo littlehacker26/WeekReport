@@ -87,6 +87,11 @@
 ## 下周工作
 - 整理cellwhisperer数据集，做SFT任务分类
 - 调研KEGG数据库
+# 2026-1-17
+## 问题方案
+- Cross-tissue Immune Cell Atlas、 Human Lung两大数据集写入arrow文件中的基因表达量为log1p处理，应当选用原始表达量
+- 最终写入cell_info中保留的基因应当为非零表达量基因
+- 对于虚拟扰动任务中对照组和扰动组随机配对还存在疑问
 ## 任务
 - tahoe的toknizer方式转换。
 - 把cell2setence/whispercell 的数据，用tahoe的toknizer方式转换。（understand和generation） f"{cell_token} natural language prompt!"
