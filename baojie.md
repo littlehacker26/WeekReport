@@ -92,6 +92,15 @@
 - Cross-tissue Immune Cell Atlas、 Human Lung两大数据集写入arrow文件中的基因表达量为log1p处理，应当选用原始表达量
 - 最终写入cell_info中保留的基因应当为非零表达量基因
 - 对于虚拟扰动任务中对照组和扰动组随机配对还存在疑问
+# 2026-1-30
+## 上周工作
+- 整理kegg数据库中基因之间关系
+- 整理所有cell_info（除虚拟扰动数据）
+## 问题方案
+- 任务类型表格中的数据链接放到字体中
+- 任务类型表格中每个数据集放一个实例
+- 为所有cell_info统一cell_id命名
+- 为cell_info写接口函数及readme
 ## 任务
 - tahoe的toknizer方式转换。
 - 把cell2setence/whispercell 的数据，用tahoe的toknizer方式转换。（understand和generation） f"{cell_token} natural language prompt!"
