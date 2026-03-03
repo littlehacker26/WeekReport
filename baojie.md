@@ -101,6 +101,15 @@
 - 任务类型表格中每个数据集放一个实例
 - 为所有cell_info统一cell_id命名
 - 为cell_info写接口函数及readme
+# 2026-3-4
+## 上周工作
+- 整理出14万条基因调控网络数据
+- 根据代码读懂scGPT以及Tahoe-x1预训练策略
+- 根据基因调控网络数据设计GRN-scGPT预训练方案
+## 问题方案
+- GRN-scGPT预训练模型设计是否沿用scGPT注意力机制
+## 下周工作
+- 预训练GRN-scGPT，以及设计评测指标
 ## 任务
 - tahoe的toknizer方式转换。
 - 把cell2setence/whispercell 的数据，用tahoe的toknizer方式转换。（understand和generation） f"{cell_token} natural language prompt!"
