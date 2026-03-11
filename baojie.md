@@ -110,6 +110,11 @@
 - GRN-scGPT预训练模型设计是否沿用scGPT注意力机制
 ## 下周工作
 - 预训练GRN-scGPT，以及设计评测指标
+# 2026-3-11
+## 上周工作
+- 用tahoe-100M数据预训练scGPT
+## 问题方案
+- 对于评测指标(loss曲线)还有疑问
 ## 任务
 - tahoe的toknizer方式转换。
 - 把cell2setence/whispercell 的数据，用tahoe的toknizer方式转换。（understand和generation） f"{cell_token} natural language prompt!"
